@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "buscador-de-cep-287c8",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -10,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "index.html"
+        "destination": "/index.html"
       }
     ]
   }
